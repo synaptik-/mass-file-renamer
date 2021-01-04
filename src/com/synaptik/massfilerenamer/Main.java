@@ -13,7 +13,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("main.fxml"));
         primaryStage.getIcons().add(new Image(Main.class.getResourceAsStream("folder-icon.png")));
-        primaryStage.setTitle("Mass File Renamer v1.0.0 - by Synaptik");
+        primaryStage.setTitle("Mass File Renamer v1.0.1 - by Synaptik");
         primaryStage.setScene(new Scene(root, 600, 400));
         primaryStage.show();
     }

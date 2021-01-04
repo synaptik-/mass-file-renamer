@@ -2,8 +2,8 @@
 <launch4jConfig>
   <dontWrapJar>false</dontWrapJar>
   <headerType>gui</headerType>
-  <jar>C:\Users\dwatl\Projects\SearchAndReplace\out\artifacts\Mass_File_Renamer_jar\Mass File Renamer.jar</jar>
-  <outfile>C:\Users\dwatl\Projects\SearchAndReplace\out\artifacts\Mass_File_Renamer_jar\Mass File Renamer.exe</outfile>
+  <jar>.\out\artifacts\Mass_File_Renamer_jar\Mass File Renamer.jar</jar>
+  <outfile>Mass File Renamer.exe</outfile>
   <errTitle></errTitle>
   <cmdLine></cmdLine>
   <chdir>.</chdir>
@@ -13,11 +13,11 @@
   <stayAlive>false</stayAlive>
   <restartOnCrash>false</restartOnCrash>
   <manifest></manifest>
-  <icon></icon>
+  <icon>app.ico</icon>
   <jre>
     <path></path>
     <bundledJre64Bit>false</bundledJre64Bit>
-    <minVersion>1.8.0</minVersion>
+    <minVersion>1.8.0_271</minVersion>
     <maxVersion></maxVersion>
     <jdkPreference>preferJre</jdkPreference>
     <runtimeBits>64/32</runtimeBits>
